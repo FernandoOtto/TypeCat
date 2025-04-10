@@ -5,6 +5,7 @@ const catGifFrames = [
   "assets/img/cat/frame-2.gif",
   "assets/img/cat/frame-3.gif",
 ];
+
 let index = 0;
 inputs.forEach((input) => {
   input.addEventListener("keypress", () => {
