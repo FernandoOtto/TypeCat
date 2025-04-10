@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Monocraft";
+  src: url("assets/fonts/Monocraft/Monocraft.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Monocraft";
+}
+
+body {
+  display: flex;
+  background-color: #262626;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  gap: 15px;
+}
+
+.catCard {
+  background-color: #202020;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1.5fr;
+  align-items: center;
+  border: 10px #b98e8e solid;
+}
+
+.msg {
+  display: flex;
+  background-color: #ddd;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #b06565;
+  border: 10px #202020 solid;
+  font-size: 20px;
+}
+
+.catGif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bfa0a0;
+  padding: 50px 0px 0px 0px;
+  height: 350px;
+  width: 100%;
+  border: 10px #202020 solid;
+  border-width: 30px 30px;
+  border-radius: 100px 0 100px 0;
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.inputs {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  border: 10px #202020 solid;
+  gap: 10px;
+
+  .input {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+
+    input {
+      width: 80%;
+      padding: 10px;
+    }
+  }
+}
+
+.autor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+  .autor-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+
+    img {
+      background-color: #303030;
+      width: 50px;
+      border: 3px #aaa solid;
+    }
+  }
+
+  .autor-right {
+    img {
+      width: 35px;
+    }
+  }
+}
